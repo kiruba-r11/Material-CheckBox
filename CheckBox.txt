@@ -1,0 +1,25 @@
+- Checkbox allow users to select one or more items from a set.
+- It can turn options on or off, prefered over switches in desktops.
+- To present a list of sub-selections (related items).
+
+- Parent and Child CheckBox:
+	1. When parent CheckBox is checked, all child checkboxes are also checked.
+	2. If some, but not all child checkboxes are checked, then parent CheckBox becomes and indeterminate.
+
+- CheckBox doesn't support shape theming and are always only rounded square.
+
+- Attributes:
+	1. buttonTint -> to color the button
+	2. checked -> to check the button
+	3. enable -> to enable the button
+	4. text and other text related attributes
+
+- Listerners:
+	checkBox.setOnCheckedChangeListerner { buttonView , isChecked -> 
+		// code
+	}
+
+- Dependancy:
+	implementation "com.google.android.material:material:1.4.0-alpha01"
+
+
