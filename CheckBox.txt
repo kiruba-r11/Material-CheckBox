@@ -14,8 +14,8 @@
 	3. enable -> to enable the button
 	4. text and other text related attributes
 
-- Listerners:
-	checkBox.setOnCheckedChangeListerner { buttonView , isChecked -> 
+- Listeners:
+	checkBox.setOnCheckedChangeListener { buttonView , isChecked -> 
 		// code
 	}
 
